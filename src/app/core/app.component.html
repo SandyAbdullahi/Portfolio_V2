@@ -1,6 +1,6 @@
 <!-- MAIN SITE CONTAINER -->
 <div class="site">
-  <div class="site-container">
+  <div class="site-content">
     <!-- NAVBAR START -->
     <nav class="navbar navbar-expand navbar-dark">
       <div class="container">
@@ -22,41 +22,34 @@
             </ul>
           </div>
         </div>
+                <ul class="nav navbar-nav ml-auto">
+                  <li class="nav-item active pr-4">
+                    <a name="" id="" class="btn accent-bg-color" href="#" role="button">Hire Me</a>
+                  </li>
+                </ul>
       </div>
     </nav>
-    <hr class="my-divider">
     <!-- NAVBAR END -->
-    <!-- HEADER START -->
-    <header>
-      <div class="jumbotron-fluid">
-        <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, Angular Nerd and a Django Chef 🥄</h1>
-      </div>
-    </header>
-    <!-- HEADER END -->
-    <hr class="my-divider">
     <!-- MAIN CONTENT -->
-    <div class="main">
-      <div class="content">
+    <div class="main-content container">
         <router-outlet></router-outlet>
-      </div>
     </div>
     <!-- MAIN CONTENT END -->
+  </div>
     <!-- FOOTER START -->
-    <footer>
-      <div class="container">
+    <footer class="footer container-fluid ">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12">
             <p>Copyright Abdullahinur Abdullahi</p>
           </div>
-          <div class="col-6">
+          <div class="col-12">
             <p>Social Media 1</p>
             <p>Social Media 2</p>
             <p>Social Media 3</p>
           </div>
         </div>
-      </div>
+
     </footer>
     <!-- FOOTER END -->
-  </div>
 </div>
 <!-- MAIN SITE CONTAINER END -->
