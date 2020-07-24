@@ -12,11 +12,12 @@ export class HomeComponent implements OnInit {
   customOptions: OwlOptions = {
     loop: true,
     autoplay:true,
+    autoplaySpeed: 300,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
     dots: false,
-    navSpeed: 71,
+    slideTransition: 'cubic-bezier(1,-0.01,.02,1)',
     responsive: {
       0: {
         items: 1
