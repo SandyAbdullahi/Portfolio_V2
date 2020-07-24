@@ -4,24 +4,15 @@
   <div class="jumbotron-fluid">
     <!-- <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, Angular Nerd and a Django Chef 🥄
     </h1> -->
-
-
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-            <p>Text one</p>
-        </div>
-        <div class="carousel-item">
-          <p>Text two</p>
-        </div>
-        <div class="carousel-item">
-          <p>Text three</p>
-        </div>
-      </div>
-    </div>
-
-
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide>
+        <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, Angular Nerd and a Django Chef 🥄
+        </h1>
+      </ng-template>
+      <ng-template carouselSlide><h1 class="pt-3">I take <span class="alt-color font-weight-bold">ONLINE</span> content, and make it</h1>
+      <h1><span class="alt-color font-weight-bold w-50">EXTRAORDINARY</span></h1>
+      </ng-template>
+    </owl-carousel-o>
 
   </div>
 </header>
