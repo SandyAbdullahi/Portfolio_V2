@@ -1,14 +1,62 @@
-<nav class="navbar navbar-expand navbar-light bg-light">
-    <ul class="nav navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active" >Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/portfolio']" routerLinkActive="active" >Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active" >Contact</a>
-      </li>
-    </ul>
-</nav>
-<router-outlet></router-outlet>
+<!-- MAIN SITE CONTAINER -->
+<div class="site">
+  <div class="site-container">
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand navbar-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="font-weight-bold">Abdullahinur Abdullahi</h4>
+          </div>
+          <div class="col-12">
+            <ul class="nav navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/portfolio']" routerLinkActive="active">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr class="my-divider">
+    <!-- NAVBAR END -->
+    <!-- HEADER START -->
+    <header>
+      <div class="jumbotron-fluid">
+        <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, Angular Nerd and a Django Chef 🥄</h1>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <hr class="my-divider">
+    <!-- MAIN CONTENT -->
+    <div class="main">
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <!-- MAIN CONTENT END -->
+    <!-- FOOTER START -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <p>Copyright Abdullahinur Abdullahi</p>
+          </div>
+          <div class="col-6">
+            <p>Social Media 1</p>
+            <p>Social Media 2</p>
+            <p>Social Media 3</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </div>
+</div>
+<!-- MAIN SITE CONTAINER END -->
