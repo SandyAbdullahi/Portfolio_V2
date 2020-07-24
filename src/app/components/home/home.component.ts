@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
     touchDrag: true,
     pullDrag: true,
     dots: false,
-    slideTransition: 'cubic-bezier(1,-0.01,.02,1)',
+    navSpeed: 5,
     responsive: {
       0: {
         items: 1
