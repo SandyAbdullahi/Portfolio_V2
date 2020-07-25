@@ -10,6 +10,10 @@ import * as Rellax from 'rellax';
 })
 export class PortfolioComponent implements OnInit {
 
+  selectedType: 'all' | 'angular' | 'django' = 'all'
+
+
+
   constructor() { }
 
   ngOnInit() {

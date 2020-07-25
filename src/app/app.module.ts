@@ -8,7 +8,9 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { AppComponent } from './core/app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyCarouselModule } from './carousel.module';
+import { MaterialModule } from './material.module';
 import {NgsRevealModule} from 'ngx-scrollreveal';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -22,8 +24,11 @@ import {NgsRevealModule} from 'ngx-scrollreveal';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
+    MaterialModule,
     MyCarouselModule,
-    NgsRevealModule
+    NgsRevealModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

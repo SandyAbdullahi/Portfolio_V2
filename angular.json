@@ -34,7 +34,12 @@
             ],
             "scripts": [
               "node_modules/scrollreveal/dist/scrollreveal.js"
-            ]
+            ],
+            "allowedCommonJsDependencies": [
+              "jquery",
+              "rellax",
+              "amd"
+           ]
           },
           "configurations": {
             "production": {
