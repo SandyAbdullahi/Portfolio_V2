@@ -8,6 +8,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { AppComponent } from './core/app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyCarouselModule } from './carousel.module';
+import {NgsRevealModule} from 'ngx-scrollreveal';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MyCarouselModule } from './carousel.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MyCarouselModule
+    MyCarouselModule,
+    NgsRevealModule
   ],
   providers: [],
   bootstrap: [AppComponent]
