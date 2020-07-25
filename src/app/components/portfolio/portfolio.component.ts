@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import *  as $ from 'jquery';
+import * as Rellax from 'rellax';
+
 
 @Component({
   selector: 'app-portfolio',
@@ -10,6 +13,10 @@ export class PortfolioComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function() {
+      var rellax = new Rellax('.rellax',{})
+    })
+
   }
 
 }
