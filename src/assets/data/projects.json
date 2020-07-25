@@ -1,41 +1,25 @@
 [{
-  "app_name": "Sonsing",
-  "app_description": "turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet",
-  "app_image": "http://dummyimage.com/650x450.jpg/cc0000/ffffff"
+  "id": 1,
+  "name": "Prodder",
+  "description": "nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu",
+  "type": "Django",
+  "preview": "http://dummyimage.com/650x450.jpg/cc0000/ffffff"
 }, {
-  "app_name": "Zathin",
-  "app_description": "hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante",
-  "app_image": "http://dummyimage.com/650x450.png/5fa2dd/ffffff"
+  "id": 2,
+  "name": "Tin",
+  "description": "augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis",
+  "type": "Angular",
+  "preview": "http://dummyimage.com/650x450.png/5fa2dd/ffffff"
 }, {
-  "app_name": "Transcof",
-  "app_description": "purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu",
-  "app_image": "http://dummyimage.com/650x450.jpg/cc0000/ffffff"
+  "id": 3,
+  "name": "Wrapsafe",
+  "description": "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas",
+  "type": "Django",
+  "preview": "http://dummyimage.com/650x450.jpg/5fa2dd/ffffff"
 }, {
-  "app_name": "Temp",
-  "app_description": "duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam",
-  "app_image": "http://dummyimage.com/650x450.png/cc0000/ffffff"
-}, {
-  "app_name": "Flexidy",
-  "app_description": "odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque",
-  "app_image": "http://dummyimage.com/650x450.png/dddddd/000000"
-}, {
-  "app_name": "Andalax",
-  "app_description": "magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus",
-  "app_image": "http://dummyimage.com/650x450.bmp/cc0000/ffffff"
-}, {
-  "app_name": "Voyatouch",
-  "app_description": "vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur",
-  "app_image": "http://dummyimage.com/650x450.png/cc0000/ffffff"
-}, {
-  "app_name": "Zamit",
-  "app_description": "posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi",
-  "app_image": "http://dummyimage.com/650x450.png/5fa2dd/ffffff"
-}, {
-  "app_name": "Y-Solowarm",
-  "app_description": "imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit",
-  "app_image": "http://dummyimage.com/650x450.bmp/dddddd/000000"
-}, {
-  "app_name": "Konklux",
-  "app_description": "dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at",
-  "app_image": "http://dummyimage.com/650x450.bmp/dddddd/000000"
+  "id": 4,
+  "name": "Gembucket",
+  "description": "rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor",
+  "type": "Django",
+  "preview": "http://dummyimage.com/650x450.jpg/ff4444/ffffff"
 }]

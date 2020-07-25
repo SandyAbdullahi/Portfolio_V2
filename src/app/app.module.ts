@@ -11,7 +11,7 @@ import { MyCarouselModule } from './carousel.module';
 import { MaterialModule } from './material.module';
 import {NgsRevealModule} from 'ngx-scrollreveal';
 import { FormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,6 +25,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
+    HttpClientModule,
     MaterialModule,
     MyCarouselModule,
     NgsRevealModule,
