@@ -1,82 +1,87 @@
-<hr class="my-divider">
-<!-- HEADER START -->
-<header class="my-header-content">
-  <div class="jumbotron-fluid">
-    <!-- <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, Angular Nerd and a Django Chef 🥄
-    </h1> -->
-    <owl-carousel-o [options]="customOptions">
-      <ng-template carouselSlide><h1 class="my-padding-one header-text-two">I take <span class="alt-color font-weight-bold">ONLINE</span> content, and make it</h1>
-      <h1 class="header-text-two"><span class="alt-color font-weight-bold">EXTRAORDINARY</span></h1>
-      </ng-template>
-      <ng-template carouselSlide>
-        <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, <span class="text-warning">Angular Nerd</span> and a <span class="text-success">Django Chef</span> 🥄
-        </h1>
-      </ng-template>
-    </owl-carousel-o>
+<div [ngsRevealSet]="{ reset:true}" [ngsSelector]="'.reveal'">
 
-  </div>
-</header>
-<!-- HEADER END -->
-<hr class="my-divider">
-<div class="about-container text-right container" [ngsReveal]="{ reset: true}" >
-  <h1>About Me</h1>
-  <p>Hi, I am Abdullahi, I am a creative full stack <span class="alt-color font-weight-bold">Web
-      Developer</span> with a focus on unorthodox web principles and made up terms like "box-model fluidity". I
-    like
-    to design and build interactive websites and applications to better engage your customers with your brand.
-  </p>
-  <p>I utilize various techniques such as dynamic content, responsive webpages with butterey
-    smooth animations that keep your users engaged and connected with your brand.
-  </p>
-  <p> <span class="alt-color font-weight-bold">Or</span> If you feel like reaching out to talk,
-    discuss code,
-    new ventures or even your favorite flavor of <span class="alt-color font-weight-bold">Doughnut</span> I'd be happy
-    to oblige
-    <span class="alt-color font-weight-bold">:)</span> </p>
-</div>
-<hr class="my-divider">
-<div class="specialist-container container">
-  <div class="row mb-3">
-    <div class="col-12 col-md-4 text-center m-0"><i class="fab fa-angular fa-10x d-none d-md-block pl-5"></i></div>
-    <div class="col-12 col-md-8">
-      <h2><i class="fab fa-angular d-md-none mr-2"></i>Angular Development</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eveniet. Ea doloribus enim fugit vel, quasi,
-        incidunt, modi voluptas consectetur error voluptatum veritatis libero?</p>
-      <a class="btn accent-bg-color" [routerLink]="['/portfolio']" role="button">Angular Projects</a>
+  <hr class="my-divider">
+  <!-- HEADER START -->
+  <header class="my-header-content">
+    <div class="jumbotron-fluid">
+      <!-- <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, Angular Nerd and a Django Chef 🥄
+      </h1> -->
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide><h1 class="my-padding-one header-text-two">I take <span class="alt-color font-weight-bold">ONLINE</span> content, and make it</h1>
+        <h1 class="header-text-two"><span class="alt-color font-weight-bold">EXTRAORDINARY</span></h1>
+        </ng-template>
+        <ng-template carouselSlide>
+          <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, <span class="text-warning">Angular Nerd</span> and a <span class="text-success">Django Chef</span> 🥄
+          </h1>
+        </ng-template>
+      </owl-carousel-o>
+
     </div>
+  </header>
+  <!-- HEADER END -->
+  <hr class="my-divider">
+  <div class="about-container text-right container"  >
+    <h1>About Me</h1>
+    <p>Hi, I am Abdullahi, I am a creative full stack <span class="alt-color font-weight-bold">Web
+        Developer</span> with a focus on unorthodox web principles and made up terms like "box-model fluidity". I
+      like
+      to design and build interactive websites and applications to better engage your customers with your brand.
+    </p>
+    <p class="reveal">I utilize various techniques such as dynamic content, responsive webpages with butterey
+      smooth animations that keep your users engaged and connected with your brand.
+    </p>
+    <p class="reveal"> <span class="alt-color font-weight-bold">Or</span> If you feel like reaching out to talk,
+      discuss code,
+      new ventures or even your favorite flavor of <span class="alt-color font-weight-bold">Doughnut</span> I'd be happy
+      to oblige
+      <span class="alt-color font-weight-bold">:)</span> </p>
   </div>
-  <div class="row mb-3">
-    <div class="col-12 col-md-8 text-right">
-      <h2><img src="../../../assets/images/Django_logo.svg" class="d-md-none mr-2" width="50" alt="">Django Development
-      </h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eveniet. Ea doloribus enim fugit vel, quasi,
-        incidunt, modi voluptas consectetur error voluptatum veritatis libero?</p>
-      <a class="btn accent-bg-color" [routerLink]="['/portfolio']" role="button">Django Projects</a>
+  <hr class="my-divider">
+  <div class="specialist-container container">
+    <div class="row mb-3">
+      <div class="col-12 col-md-4 text-center m-0"><i class="fab fa-angular fa-10x d-none d-md-block pl-5 reveal"></i></div>
+      <div class="col-12 col-md-8">
+        <h2 class="reveal"><i class="fab fa-angular d-md-none mr-2"></i>Angular Development</h2>
+        <p class="reveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eveniet. Ea doloribus enim fugit vel, quasi,
+          incidunt, modi voluptas consectetur error voluptatum veritatis libero?</p>
+        <a class="btn accent-bg-color reveal" [routerLink]="['/portfolio']" role="button">Angular Projects</a>
+      </div>
     </div>
-    <div class="col-12 col-md-4">
-      <img src="../../../assets/images/Django_logo.svg" class="d-none d-md-block img-fluid django-logo" alt="">
-    </div>
-  </div>
-</div>
-<hr class="my-divider">
-<div class="client-container container">
-  <h1 class="text-center display-4 font-weight-bold">Clients</h1>
-  <div class="row">
-  <div class="col-12">
-    <span class="badge mr-2">2020</span>
-    <h1>YARE CENTRE LTD</h1>
-    <div class="row">
-      <p>A Commercial Real Estate Hub</p>
-    </div>
-  </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <span class="badge mr-2">2020</span>
-      <h1>SHAMIM INCENSE</h1>
-      <div class="row">
-        <p>Unbelievable Scentsations.</p>
+    <div class="row mb-3">
+      <div class="col-12 col-md-8 text-right">
+        <h2 class="reveal"><img src="../../../assets/images/Django_logo.svg" class="d-md-none mr-2" width="50" alt="">Django Development
+        </h2>
+        <p class="reveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eveniet. Ea doloribus enim fugit vel, quasi,
+          incidunt, modi voluptas consectetur error voluptatum veritatis libero?</p>
+        <a class="btn accent-bg-color reveal" [routerLink]="['/portfolio']" role="button">Django Projects</a>
+      </div>
+      <div class="col-12 col-md-4">
+        <img src="../../../assets/images/Django_logo.svg" class="d-none d-md-block img-fluid django-logo reveal" alt="">
       </div>
     </div>
   </div>
+  <hr class="my-divider">
+  <div class="client-container container">
+    <h1 class="text-center display-4 font-weight-bold reveal">Clients</h1>
+    <div class="row">
+    <div class="col-12">
+      <span class="badge mr-2 reveal">2020</span>
+      <h1 class="reveal">YARE CENTRE LTD</h1>
+      <div class="row reveal">
+        <p>A Commercial Real Estate Hub</p>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <span class="badge mr-2 reveal">2020</span>
+        <h1 class="reveal">SHAMIM INCENSE</h1>
+        <div class="row reveal">
+          <p>Unbelievable Scentsations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </div>

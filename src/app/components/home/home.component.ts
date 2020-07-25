@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
+import {NgsRevealConfig} from 'ngx-scrollreveal';
+
 
 @Component({
   selector: 'app-home',
@@ -36,7 +38,13 @@ export class HomeComponent implements OnInit {
 
   }
 
-  constructor() { }
+  constructor(config: NgsRevealConfig) {
+    // customize default values of ngx-scrollreveal directives used by this component tree
+    config.duration = 350;
+    config.easing = 'ease';
+
+    //other options here
+  }
 
   ngOnInit() {
   }
