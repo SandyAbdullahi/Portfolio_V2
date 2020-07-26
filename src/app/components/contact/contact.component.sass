@@ -16,8 +16,14 @@
     h3,p
       text-align: center
 
-  .full-width
-    width: 100%
+  .disclaimer-link
+    text-align: center
+    a
+      color: $accent
+      &:hover
+        color: $alt-bg
+        text-decoration: none
+
 
 textarea
   min-height: 10rem
@@ -30,3 +36,18 @@ textarea
    opacity: 0
    transition: none !important
 
+@media ( min-width: 768px )
+  .contact-container
+
+    .my-text
+      width: 75%
+      margin: auto
+
+
+@media ( min-width: 1200px )
+  .contact-container
+    .main-text
+      h2
+        font-size: 3rem
+      p
+        font-size: 2rem
