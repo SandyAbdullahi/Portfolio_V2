@@ -1,6 +1,9 @@
 @import '../../styles/_colors'
 
 .contact-container
+  .mat-form-field-wrapper
+    width: 300px !important
+
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
   input:-webkit-autofill:focus,
@@ -38,7 +41,8 @@ textarea
 
 @media ( min-width: 768px )
   .contact-container
-
+    .mat-form-field-wrapper
+      width: 600px !important
     .my-text
       width: 75%
       margin: auto
@@ -51,3 +55,4 @@ textarea
         font-size: 3rem
       p
         font-size: 2rem
+
