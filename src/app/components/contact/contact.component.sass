@@ -1,0 +1,32 @@
+@import '../../styles/_colors'
+
+.contact-container
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active
+      -webkit-box-shadow: 0 0 0 30px $body-bg inset !important
+
+  input:-webkit-autofill
+    -webkit-text-fill-color: $accent !important
+    -webkit-background-color: transparent !important
+
+
+  .row
+    h3,p
+      text-align: center
+
+  .full-width
+    width: 100%
+
+textarea
+  min-height: 10rem
+
+.mat-input-element
+  color: $accent !important
+  caret-color: $accent !important
+
+.mat-form-field-flex:hover .mat-form-field-outline
+   opacity: 0
+   transition: none !important
+

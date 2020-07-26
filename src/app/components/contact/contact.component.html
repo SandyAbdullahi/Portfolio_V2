@@ -1,1 +1,47 @@
-<p>contact works!</p>
+<div class="contact-container mb-5">
+  <div class="container text-center">
+    <h2>Contact me</h2>
+    <p>You can contact me using the form below, or by simply clicking the my email link at the bottom. I normally repsond within the same day. To get a concise quote of the work to be done, please inlcude as much detail as possible.</p>
+  </div>
+  <hr>
+  <div class="form-container mb-5 text-center">
+    <form ngNoForm action="https://formspree.io/xlepallz" method="POST">
+      <div class="form-group">
+        <mat-form-field>
+          <input matInput type="email" placeholder="Your Email" name="_replyto" required>
+        </mat-form-field>
+      </div>
+      <div class="form-group">
+        <mat-form-field>
+          <input matInput placeholder="Subject" name="subject" required>
+        </mat-form-field>
+      </div>
+      <div class="form-group">
+        <mat-form-field>
+          <textarea matInput placeholder="Message" name="message" required></textarea>
+        </mat-form-field>
+      </div>
+      <button mat-raised-button type="submit" class="accent-bg-color">Send Message</button>
+    </form>
+  </div>
+  <hr class="my-divider">
+  <div class="row my-5">
+<div class="col-12 col-md-8">
+  <h3>Diclaimer</h3>
+  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti accusamus architecto facilis, iste fugit ipsam eum dolores labore provident maxime. Incidunt sequi illum tempora similique labore suscipit earum commodi fugit?</p>
+</div>
+
+    <div class="col-12 col-md-4 text-center">
+      <address>
+        <p><strong>Abdullahinur Abdullahi</strong></p>
+        <p>Nairobi</p>
+        <p>Kenya</p>
+      </address>
+      <address>
+        <p><strong>Email</strong></p>
+        <a href="mailto:aabdullahinur@gmail.com" class="accent-color">aabdullahinur@gmail.com</a>
+      </address>
+    </div>
+  </div>
+
+</div>
