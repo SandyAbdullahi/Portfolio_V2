@@ -11,7 +11,22 @@ import { ProjectService } from "../../services/project.service";
 })
 export class PortfolioComponent implements OnInit {
 
-  selectedType: 'all' | 'angular' | 'django' = 'all'
+  types: string[];
+
+  private _selectedType = 'all';
+
+  get selectedType() {
+    return this._selectedType;
+  }
+
+
+  set selectedType(newValue : string) {
+    if (newValue !== this._selectedType) {
+      this._selectedType = newValue;
+      this.loadProjects(this._selectedType);
+    }
+  }
+
 
   projects: Project[];
 
@@ -19,14 +34,19 @@ export class PortfolioComponent implements OnInit {
   constructor(private projectSvc: ProjectService) { }
 
   ngOnInit() {
-    this.projectSvc.get().subscribe(data => {
-      this.projects = data
-    })
+    this.loadProjects(this._selectedType);
 
     $(document).ready(function() {
-      var rellax = new Rellax('.rellax',{})
-    })
+      var rellax = new Rellax('.rellax',{});
+    });
 
+  }
+
+  loadProjects(selectedType:string):void{
+    this.projectSvc.get().subscribe(data => {
+      this.types = data.map(p => p.type).filter((value, index, self) => self.indexOf(value) === index)
+      this.projects = data.filter(p=>p.type === selectedType || selectedType === 'all')
+    });
   }
 
 }

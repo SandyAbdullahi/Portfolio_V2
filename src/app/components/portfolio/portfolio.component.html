@@ -1,37 +1,42 @@
-<div class="portfolio-container">
-<div class="container accent-bg-color p-5">
-  <label class="h1">Filter:</label>
-  <hr>
-  <p>Type:</p>
-  <mat-radio-group [(ngModel)]="selectedType">
-    <mat-radio-button class="mr-2" value="all">All</mat-radio-button>
-    <mat-radio-button class="mr-2" value="angular">Angular</mat-radio-button>
-    <mat-radio-button class="mr-2" value="django">Django</mat-radio-button>
-  </mat-radio-group>
-</div>
-  <div *ngFor="let project of projects">
-    <mat-card class="my-5">
-      <mat-card-header class="d-block">
-        <div mat-card-avatar>
-         <ng-container [ngSwitch]="project.type">
-           <div *ngSwitchCase="'Angular'"><i class="fab fa-angular body-color-red fa-2x"></i></div>
-           <div *ngSwitchCase="'Django'">
-             <p class="font-weight-bold body-color-red">DJANGO</p>
-           </div>
-           <div *ngSwitchDefault>all</div>
-         </ng-container>
-        </div>
-        <mat-card-title >{{ project.name }}</mat-card-title>
-      </mat-card-header>
-      <img mat-card-image [src]="project.preview + '?text=' + project.name" [alt]="project.name">
-      <mat-card-content>
-        <p>
-          {{ project.description }}
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-stroked-button class="btn-lg">Visit</button>
-      </mat-card-actions>
-    </mat-card>
+<div class="portfolio-container container">
+  <div class="container accent-bg-color p-5">
+    <label class="h1">Filter:</label>
+    <hr>
+    <p>Type:</p>
+    <mat-radio-group [(ngModel)]="selectedType">
+      <mat-radio-button class="mx-2" value="all">All</mat-radio-button>
+      <mat-radio-button *ngFor="let type of types" class="mx-2" [value]="type">{{ type }}</mat-radio-button>
+
+    </mat-radio-group>
   </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-sm-6" *ngFor="let project of projects">
+        <mat-card class="my-5">
+          <mat-card-header class="d-block">
+            <div mat-card-avatar>
+             <ng-container [ngSwitch]="project.type">
+               <div *ngSwitchCase="'Angular'"><i class="fab fa-angular body-color-red fa-2x"></i></div>
+               <div *ngSwitchCase="'Django'">
+                 <p class="font-weight-bold body-color-red">DJANGO</p>
+               </div>
+               <div *ngSwitchDefault><i class="fas fa-globe body-color-red fa-2x"></i></div>
+             </ng-container>
+            </div>
+            <mat-card-title >{{ project.name }}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image [src]="project.preview + '?text=' + project.name" [alt]="project.name">
+          <mat-card-content>
+            <p>
+              {{ project.description }}
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-stroked-button class="btn-lg">Visit</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+
 </div>
