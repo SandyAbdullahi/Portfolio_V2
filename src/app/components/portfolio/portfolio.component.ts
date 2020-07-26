@@ -1,3 +1,4 @@
+import { animate, animation, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import *  as $ from 'jquery';
 import * as Rellax from 'rellax';
@@ -7,7 +8,23 @@ import { ProjectService } from "../../services/project.service";
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.sass']
+  styleUrls: ['./portfolio.component.sass'],
+  animations: [
+    trigger('it',[
+      transition('void => *',[
+        style({
+          transform: 'scale(0.5)',
+          opacity: 0,
+        }),
+        animate('0.3s cubic-bezier(.99,.02,1,1)',
+        style({
+          transform: 'scale(1)',
+          opacity: 1
+        }))
+      ])
+    ]
+    )
+  ]
 })
 export class PortfolioComponent implements OnInit {
 
@@ -35,11 +52,6 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit() {
     this.loadProjects(this._selectedType);
-
-    $(document).ready(function() {
-      var rellax = new Rellax('.rellax',{});
-    });
-
   }
 
   loadProjects(selectedType:string):void{
