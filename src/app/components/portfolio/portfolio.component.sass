@@ -1,9 +1,22 @@
-.portfolio-container
-  img
-    width: 200px
+@import '../../styles/_colors'
 
+.portfolio-container
+  .mat-card
+    background-color: $alt-color
+    text-align: center
+    .mat-card-title
+      font-size: 2.5rem
+    .mat-card-content
+      font-size: 1.2rem
 
 @media ( min-width: 768px )
   .portfolio-container
-    img
-      width: 640px
+    .mat-card
+      max-width: 60%
+      margin: auto
+    .mat-card-title
+      font-size: 4rem
+    .mat-card-header
+      place-content: center
+    .mat-card-content
+      font-size: 2rem
