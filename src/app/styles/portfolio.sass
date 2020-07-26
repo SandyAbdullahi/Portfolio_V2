@@ -20,7 +20,7 @@
   margin: 2rem auto
 
 
-.btn
+button, .btn
   transition: all 0.2s ease
   color: #ffffff !important
   &:hover
@@ -45,10 +45,19 @@
     h1
       font-weight: 900
       font-size: 2rem
+      &:hover
+        color: #fff
     p
       color: $accent
       margin: -1rem 0rem 0rem 4rem
       font-size: 0.9rem
+    a
+      color: $alt-color
+      &:hover
+        color: #fff
+    .you
+      font-size: 6rem
+
   .badge
     color: $accent
 
@@ -76,6 +85,8 @@
       p
         margin: -1rem 0rem 0rem 5rem
         font-size: 2rem
+      .you
+        font-size: 8rem
   .specialist-container
     .django-logo
       margin-top: 3rem
