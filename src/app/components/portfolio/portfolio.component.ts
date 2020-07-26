@@ -1,5 +1,6 @@
 import { animate, animation, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import *  as $ from 'jquery';
 import * as Rellax from 'rellax';
 import { Project } from "../../services/portfolio.model";
@@ -13,12 +14,12 @@ import { ProjectService } from "../../services/project.service";
     trigger('it',[
       transition('void => *',[
         style({
-          transform: 'scale(0.5)',
+
           opacity: 0,
         }),
-        animate('0.3s cubic-bezier(.99,.02,1,1)',
+        animate('0.2s ease-in',
         style({
-          transform: 'scale(1)',
+
           opacity: 1
         }))
       ])
@@ -48,9 +49,15 @@ export class PortfolioComponent implements OnInit {
   projects: Project[];
 
 
-  constructor(private projectSvc: ProjectService) { }
+  constructor(private projectSvc: ProjectService, private route: ActivatedRoute) { }
 
   ngOnInit() {
+
+    const filter = this.route.snapshot.queryParamMap.get('filter');
+    if(filter) {
+      this._selectedType = filter;
+    };
+
     this.loadProjects(this._selectedType);
   }
 

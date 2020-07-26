@@ -7,11 +7,14 @@
       <!-- <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, Angular Nerd and a Django Chef 🥄
       </h1> -->
       <owl-carousel-o [options]="customOptions">
-        <ng-template carouselSlide><h1 class="my-padding-one header-text-two">I take <span class="alt-color font-weight-bold">ONLINE</span> content, and make it</h1>
-        <h1 class="header-text-two"><span class="alt-color font-weight-bold">EXTRAORDINARY</span></h1>
+        <ng-template carouselSlide>
+          <h1 class="my-padding-one header-text-two">I take <span class="alt-color font-weight-bold">ONLINE</span>
+            content, and make it</h1>
+          <h1 class="header-text-two"><span class="alt-color font-weight-bold">EXTRAORDINARY</span></h1>
         </ng-template>
         <ng-template carouselSlide>
-          <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, <span class="text-warning">Angular Nerd</span> and a <span class="text-success">Django Chef</span> 🥄
+          <h1>Web Developer, Designer, Information Technology Enthusiast, Humble Bragger, <span
+              class="text-warning">Angular Nerd</span> and a <span class="text-success">Django Chef</span> 🍳
           </h1>
         </ng-template>
       </owl-carousel-o>
@@ -20,38 +23,37 @@
   </header>
   <!-- HEADER END -->
   <hr class="my-divider">
-  <div class="about-container text-right container"  >
+  <div class="about-container text-right container">
     <h1 class="reveal">About Me</h1>
-    <p class="reveal">Hi, I am Abdullahi, I am a creative full stack <span class="alt-color font-weight-bold">Web
-        Developer</span> with a focus on unorthodox web principles and made up terms like "box-model fluidity". I
-      like
-      to design and build interactive websites and applications to better engage your customers with your brand.
+    <p class="reveal">Hi, I am Abdullahi, I am a creative full-stack <span class="alt-color font-weight-bold">Web
+        Developer</span> with a focus on unorthodox web principles and made-up terms like <span
+        class="alt-color font-weight-bold">"</span>box-model fluidity<span class="alt-color font-weight-bold">"</span>.
+      I like to design and build interactive websites and applications to better engage your customers with your brand.
     </p>
-    <p class="reveal">I utilize various techniques such as dynamic content, responsive webpages with butterey
-      smooth animations that keep your users engaged and connected with your brand.
-    </p>
-    <p class="reveal"> <span class="alt-color font-weight-bold">Or</span> If you feel like reaching out to talk,
-      discuss code,
-      new ventures or even your favorite flavor of <span class="alt-color font-weight-bold">Doughnut</span> I'd be happy
-      to oblige
-      <span class="alt-color font-weight-bold">:)</span> </p>
+    <p class="reveal">I utilize various techniques such as dynamic content, responsive webpages with buttery smooth
+      animations, and progressive web apps to get your users better hooked your message and content.</p>
+    <p><span class="alt-color font-weight-bold">Or</span> If you feel like reaching out to talk, discuss code, new
+      ventures or even your favorite kind of <span class="alt-color font-weight-bold">Doughnut</span> I'd be happy to
+      oblige. <span class="alt-color font-weight-bold">:)</span> </p>
   </div>
   <hr class="my-divider">
   <div class="specialist-container container">
     <div class="row mb-3">
-      <div class="col-12 col-md-4 text-center m-0"><i class="fab fa-angular fa-10x d-none d-md-block pl-5 reveal alt-color"></i></div>
+      <div class="col-12 col-md-4 text-center m-0"><i
+          class="fab fa-angular fa-10x d-none d-md-block pl-5 reveal alt-color"></i></div>
       <div class="col-12 col-md-8">
         <h2 class="reveal"><i class="fab fa-angular d-md-none mr-2 alt-color"></i>Angular Development</h2>
-        <p class="reveal">Angular is a very powerful and robust front end framework that is mainly used to develop single-page apps. It is also progressive in the sense that it has been optimimized for mobile views.In additon to that Angular has a multitude of libraries and modules that can be integrated into it.</p>
-        <a class="btn accent-bg-color reveal" [routerLink]="['/portfolio']" role="button">Angular Projects</a>
+        <p class="reveal">Angular is a very powerful and robust front end framework that is mainly used to develop single-page apps. It is also progressive in the sense that it has been optimized for mobile views. In addition to that, Angular has a multitude of libraries and modules that can be integrated into it.</p>
+        <a class="btn accent-bg-color reveal" [routerLink]="['/portfolio']" [queryParams]="{filter: 'Angular'}" role="button">Angular Projects</a>
       </div>
     </div>
     <div class="row mb-3">
       <div class="col-12 col-md-8 text-right">
-        <h2 class="reveal"><img src="../../../assets/images/Django_logo.svg" class="d-md-none mr-2" width="50" alt="">Django Development
+        <h2 class="reveal"><img src="../../../assets/images/Django_logo.svg" class="d-md-none mr-2" width="50"
+            alt="">Django Development
         </h2>
-        <p class="reveal">Django is a high-level Python web framework, that allows for rapid development of basic applications. With django, one can create extensive, complex and dynamic applications because the framework handles all of the minor tasks, allowing a developer to focus on writing better and more consice features.</p>
-        <a class="btn accent-bg-color reveal" [routerLink]="['/portfolio']" role="button">Django Projects</a>
+        <p class="reveal">Django is a high-level Python web framework, that allows for the rapid development of basic applications. With Django, one can create extensive, complex, and dynamic applications because the framework handles all of the minor tasks, allowing a developer to focus on writing better and more concise features.</p>
+        <a class="btn accent-bg-color reveal" [routerLink]="['/portfolio']" [queryParams]="{filter: 'Django'}" role="button">Django Projects</a>
       </div>
       <div class="col-12 col-md-4">
         <img src="../../../assets/images/Django_logo.svg" class="d-none d-md-block img-fluid django-logo reveal" alt="">
@@ -62,20 +64,24 @@
   <div class="client-container container">
     <h1 class="text-center display-4 font-weight-bold reveal">Clients</h1>
     <div class="row">
-    <div class="col-12">
-      <span class="badge mr-2 reveal">2019</span>
-     <a href="http://yarebusinesspark.000webhostapp.com/"><h1 class="reveal alt-color">YARE CENTRE LTD</h1></a>
-      <div class="row reveal">
-        <p>A Commercial Real Estate Hub</p>
+      <div class="col-12">
+        <span class="badge mr-2 reveal">2019</span>
+        <a href="http://yarebusinesspark.000webhostapp.com/">
+          <h1 class="reveal alt-color">YARE CENTRE LTD</h1>
+        </a>
+        <div class="row reveal">
+          <p>A Commercial Real Estate Hub</p>
+        </div>
       </div>
-    </div>
     </div>
     <div class="row">
       <div class="col-12">
         <span class="badge mr-2 reveal">2020</span>
-        <a href="#"><h1 class="reveal under-work">SHAMIM INCENSE</h1></a>
-        <div class="row reveal">
-          <p class="text-danger font-weight-bold alt-bg-color p-1">CURRENTLY UNDER DEVELOPMENT</p>
+        <a href="#">
+          <h1 class="reveal under-work">SHAMIM INCENSE</h1>
+        </a>
+        <div class="row">
+          <p class="text-danger font-weight-bold alt-bg-color p-1 reveal">CURRENTLY UNDER DEVELOPMENT</p>
         </div>
       </div>
     </div>
