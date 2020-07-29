@@ -11,7 +11,7 @@
   </div>
   <div class="container-fluid my-wrapper">
     <div class="row">
-      <div @it class="col-12 col-sm-6" *ngFor="let project of projects">
+      <div @it class="col-12 col-sm-12 col-md-6" *ngFor="let project of projects">
         <mat-card class="my-5">
           <mat-card-header class="d-block">
             <div mat-card-avatar>
@@ -24,15 +24,37 @@
              </ng-container>
             </div>
             <mat-card-title >{{ project.name }}</mat-card-title>
+            <hr>
           </mat-card-header>
           <img mat-card-image [src]="project.preview + '?text=' + project.name" [alt]="project.name">
           <mat-card-content>
             <p>
               {{ project.description }}
             </p>
+            <hr>
+            <div class="row">
+              <div class="col-12 col-md-12">
+                <strong>Technologies Used:</strong>
+              </div>
+              <div class="col-12 col-sm-12">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item accent-bg-color">{{ project.technology }}</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-12">
+                <strong>Challenges:</strong>
+              </div>
+              <div class="col-12 col-sm-12">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item alt-bg-color">{{ project.challenge }}</li>
+                </ul>
+              </div>
+            </div>
           </mat-card-content>
           <mat-card-actions>
-            <button mat-stroked-button class="btn-lg">Visit</button>
+            <a mat-stroked-button class="btn-lg" [href]="project.link">Visit</a>
           </mat-card-actions>
         </mat-card>
       </div>

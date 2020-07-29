@@ -1,25 +1,93 @@
 [{
   "id": 1,
-  "name": "Prodder",
-  "description": "nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu",
-  "type": "Monkies",
-  "preview": "http://dummyimage.com/650x450.jpg/cc0000/ffffff"
+  "name": "Ablog",
+  "description": "Ab blog is one of the first projects I developed. It is an exercise in basic crud features. I will also be using it as an actual blog where I will post articles about things that I have learned that others might find useful.",
+  "type": "Django",
+  "preview": "http://abdullahi.atwebpages.com/assets/images/projects/abblog.png",
+  "link": "https://boiling-sierra-29856.herokuapp.com/",
+  "challenge": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+  "technology": "Django(3), Bootstrap 4"
 }, {
   "id": 2,
-  "name": "Tin",
-  "description": "augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis",
-  "type": "Angular",
-  "preview": "http://dummyimage.com/650x450.png/5fa2dd/ffffff"
+  "name": "AbTodo",
+  "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+  "type": "Django",
+  "preview": "http://abdullahi.atwebpages.com/assets/images/projects/abtodo.png",
+  "link": "https://radiant-meadow-08175.herokuapp.com/",
+  "challenge": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+  "technology": "Wrapsafe"
 }, {
   "id": 3,
-  "name": "Wrapsafe",
-  "description": "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas",
-  "type": "Django",
-  "preview": "http://dummyimage.com/650x450.jpg/5fa2dd/ffffff"
-}, {
+  "name": "Alphazap",
+  "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+  "type": "Angular",
+  "preview": "http://dummyimage.com/650x450.jpg/ff4444/ffffff",
+  "link": "https://dropbox.com/duis/aliquam/convallis.html?platea=id&dictumst=ornare&aliquam=imperdiet&augue=sapien&quam=urna&sollicitudin=pretium&vitae=nisl&consectetuer=ut&eget=volutpat&rutrum=sapien&at=arcu&lorem=sed&integer=augue&tincidunt=aliquam&ante=erat&vel=volutpat&ipsum=in&praesent=congue&blandit=etiam&lacinia=justo&erat=etiam&vestibulum=pretium&sed=iaculis&magna=justo&at=in&nunc=hac&commodo=habitasse&placerat=platea&praesent=dictumst&blandit=etiam&nam=faucibus&nulla=cursus&integer=urna&pede=ut&justo=tellus&lacinia=nulla&eget=ut&tincidunt=erat&eget=id&tempus=mauris&vel=vulputate&pede=elementum&morbi=nullam&porttitor=varius&lorem=nulla&id=facilisi&ligula=cras&suspendisse=non&ornare=velit&consequat=nec&lectus=nisi&in=vulputate&est=nonummy&risus=maecenas",
+  "challenge": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+  "technology": "Tampflex"
+
+  }, {
   "id": 4,
-  "name": "Gembucket",
-  "description": "rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor",
+  "name": "Ronstring",
+  "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+  "type": "Django and Angular",
+  "preview": "http://dummyimage.com/650x450.jpg/5fa2dd/ffffff",
+  "link": "https://themeforest.net/in/felis/donec/semper/sapien/a/libero.jsp?massa=purus&volutpat=phasellus&convallis=in&morbi=felis&odio=donec&odio=semper&elementum=sapien&eu=a&interdum=libero&eu=nam&tincidunt=dui&in=proin&leo=leo&maecenas=odio&pulvinar=porttitor&lobortis=id&est=consequat",
+  "challenge": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+  "technology": "Y-find"
+}, {
+  "id": 5,
+  "name": "Bamity",
+  "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
   "type": "Django",
-  "preview": "http://dummyimage.com/650x450.jpg/ff4444/ffffff"
+  "preview": "http://dummyimage.com/650x450.jpg/dddddd/000000",
+  "link": "http://ycombinator.com/platea/dictumst/morbi/vestibulum/velit.png?dolor=sit&sit=amet&amet=consectetuer&consectetuer=adipiscing&adipiscing=elit&elit=proin&proin=risus&risus=praesent&praesent=lectus&lectus=vestibulum&vestibulum=quam&quam=sapien&sapien=varius&varius=ut&ut=blandit&blandit=non&non=interdum&interdum=in&in=ante&ante=vestibulum&vestibulum=ante&ante=ipsum&ipsum=primis&primis=in",
+  "challenge": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+  "technology": "Tin"
+}, {
+  "id": 6,
+  "name": "Bigtax",
+  "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+  "type": "Angular",
+  "preview": "http://dummyimage.com/650x450.jpg/dddddd/000000",
+  "link": "http://skype.com/massa/donec/dapibus/duis/at/velit.aspx?dictumst=nunc&etiam=rhoncus&faucibus=dui&cursus=vel&urna=sem&ut=sed&tellus=sagittis&nulla=nam&ut=congue&erat=risus&id=semper&mauris=porta&vulputate=volutpat&elementum=quam&nullam=pede&varius=lobortis&nulla=ligula&facilisi=sit&cras=amet&non=eleifend&velit=pede&nec=libero&nisi=quis&vulputate=orci&nonummy=nullam&maecenas=molestie&tincidunt=nibh&lacus=in&at=lectus&velit=pellentesque&vivamus=at&vel=nulla&nulla=suspendisse&eget=potenti&eros=cras&elementum=in&pellentesque=purus&quisque=eu&porta=magna&volutpat=vulputate&erat=luctus&quisque=cum&erat=sociis&eros=natoque&viverra=penatibus&eget=et&congue=magnis&eget=dis&semper=parturient&rutrum=montes&nulla=nascetur&nunc=ridiculus&purus=mus&phasellus=vivamus&in=vestibulum&felis=sagittis&donec=sapien&semper=cum&sapien=sociis&a=natoque&libero=penatibus&nam=et&dui=magnis&proin=dis&leo=parturient&odio=montes&porttitor=nascetur&id=ridiculus&consequat=mus&in=etiam&consequat=vel&ut=augue&nulla=vestibulum&sed=rutrum&accumsan=rutrum&felis=neque&ut=aenean&at=auctor&dolor=gravida&quis=sem&odio=praesent&consequat=id&varius=massa&integer=id&ac=nisl&leo=venenatis&pellentesque=lacinia&ultrices=aenean&mattis=sit&odio=amet",
+  "challenge": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+  "technology": "Holdlamis"
+}, {
+  "id": 7,
+  "name": "Temp",
+  "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+  "type": "Django",
+  "preview": "http://dummyimage.com/650x450.jpg/cc0000/ffffff",
+  "link": "https://columbia.edu/fringilla/rhoncus/mauris/enim/leo.html?eros=viverra&suspendisse=dapibus&accumsan=nulla&tortor=suscipit&quis=ligula&turpis=in&sed=lacus&ante=curabitur&vivamus=at&tortor=ipsum&duis=ac&mattis=tellus&egestas=semper&metus=interdum&aenean=mauris&fermentum=ullamcorper&donec=purus&ut=sit&mauris=amet",
+  "challenge": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+  "technology": "Aerified"
+}, {
+  "id": 8,
+  "name": "Ventosanzap",
+  "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+  "type": "Django",
+  "preview": "http://dummyimage.com/650x450.jpg/5fa2dd/ffffff",
+  "link": "https://whitehouse.gov/a/odio/in/hac.aspx?sapien=elementum&varius=in&ut=hac&blandit=habitasse&non=platea&interdum=dictumst&in=morbi&ante=vestibulum&vestibulum=velit&ante=id&ipsum=pretium&primis=iaculis&in=diam&faucibus=erat&orci=fermentum&luctus=justo&et=nec&ultrices=condimentum&posuere=neque&cubilia=sapien&curae=placerat&duis=ante&faucibus=nulla&accumsan=justo&odio=aliquam",
+  "challenge": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+  "technology": "Subin"
+}, {
+}, {
+  "id": 9,
+  "name": "Tin",
+  "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+  "type": "Django and Angular",
+  "preview": "http://dummyimage.com/650x450.jpg/ff4444/ffffff",
+  "link": "https://sciencedirect.com/mus.jpg?congue=eu&etiam=orci&justo=mauris&etiam=lacinia&pretium=sapien&iaculis=quis&justo=libero&in=nullam&hac=sit&habitasse=amet&platea=turpis&dictumst=elementum&etiam=ligula&faucibus=vehicula&cursus=consequat&urna=morbi&ut=a&tellus=ipsum&nulla=integer&ut=a&erat=nibh&id=in&mauris=quis&vulputate=justo&elementum=maecenas&nullam=rhoncus&varius=aliquam&nulla=lacus&facilisi=morbi&cras=quis&non=tortor&velit=id&nec=nulla&nisi=ultrices&vulputate=aliquet&nonummy=maecenas&maecenas=leo&tincidunt=odio&lacus=condimentum",
+  "challenge": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+  "technology": "Daltfresh"
+}, {
+  "id": 10,
+  "name": "Matsoft",
+  "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+  "type": "Django and Angular",
+  "preview": "http://dummyimage.com/650x450.jpg/cc0000/ffffff",
+  "link": "https://home.pl/nibh/in/lectus.jpg?consectetuer=dui&adipiscing=luctus&elit=rutrum&proin=nulla&interdum=tellus&mauris=in&non=sagittis&ligula=dui&pellentesque=vel&ultrices=nisl&phasellus=duis&id=ac&sapien=nibh&in=fusce&sapien=lacus&iaculis=purus&congue=aliquet&vivamus=at&metus=feugiat&arcu=non&adipiscing=pretium&molestie=quis&hendrerit=lectus&at=suspendisse&vulputate=potenti&vitae=in&nisl=eleifend&aenean=quam",
+  "challenge": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+  "technology": "Home Ing"
 }]
