@@ -1,12 +1,18 @@
 <div class="contact-container mb-5">
   <div class="container text-center main-text">
     <h2 class="accent-color">Contact me</h2>
-    <p class="my-text">You can contact me using the form below, or by simply clicking <a href="mailto:aabdullahinur@gmail.com" class="accent-color">here</a>. I normally repsond within the same day. To get a concise quote of the work to be done, please inlcude as much detail as possible.</p>
+    <p class="my-text">You can contact me using the form below, or by simply clicking <a href="mailto:developer.abdullahinur@gmail.com" class="accent-color">here</a>. I normally repsond within the same day. To get a concise quote of the work to be done, please inlcude as much detail as possible.</p>
     <small class="accent-color"><span class="text-danger">(</span> Currently open to select projects <span class="text-info">ONLY</span><span class="text-danger">)</span></small>
   </div>
   <hr>
   <div class="form-container mb-5 text-center">
-    <form ngNoForm action="https://formspree.io/xlepallz" method="POST">
+
+    <div *ngIf="alert" class="alert alert-warning fade show" role="alert">
+      <strong>Success!</strong> The message has been sent.
+    </div>
+
+
+    <form ngNoForm action="https://liveformhq.com/form/bbf4f0ea-255f-4568-958c-34ed4f52d553" method="POST" accept-charset="utf-8" id="contactForm">
       <div class="form-group">
         <mat-form-field>
           <input matInput type="email" placeholder="Your Email" name="_replyto" required>
@@ -43,7 +49,7 @@
       </address>
       <address>
         <p><strong>Email</strong></p>
-        <a href="mailto:aabdullahinur@gmail.com" class="accent-color">aabdullahinur@gmail.com</a>
+        <a href="mailto:developer.abdullahinur@gmail.com" class="accent-color">developer.abdullahinur@gmail.com</a>
       </address>
     </div>
   </div>
