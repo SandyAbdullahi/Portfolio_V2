@@ -22,12 +22,12 @@ RewriteEngine On
 RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
 # Block any script that includes a <script> tag in URL.
 RewriteCond %{QUERY_STRING} (<|%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
-# Block any script trying to set a PHP GLOBALS variable via URL.
+# Block any script trying to set a html GLOBALS variable via URL.
 RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
 # Block any script trying to modify a _REQUEST variable via URL.
 RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
 # Return 403 Forbidden header and show the content of the root home page
-RewriteRule .* index.php [F]
+RewriteRule .* index.html [F]
 #
 ## End - Rewrite rules to block out some common exploits.
 
@@ -46,13 +46,13 @@ RewriteBase /
 #
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 #
-# If the requested path and file is not /index.php and the request
-# has not already been internally rewritten to the index.php script
-RewriteCond %{REQUEST_URI} !^/index\.php
+# If the requested path and file is not /index.html and the request
+# has not already been internally rewritten to the index.html script
+RewriteCond %{REQUEST_URI} !^/index\.html
 # and the requested path and file doesn't directly match a physical file
 RewriteCond %{REQUEST_FILENAME} !-f
 # and the requested path and file doesn't directly match a physical folder
 RewriteCond %{REQUEST_FILENAME} !-d
-# internally rewrite the request to the index.php script
-RewriteRule .* index.php [L]
+# internally rewrite the request to the index.html script
+RewriteRule .* index.html [L]
 #
