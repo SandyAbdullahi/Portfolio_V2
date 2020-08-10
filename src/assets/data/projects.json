@@ -3,17 +3,36 @@
   "name": "Ablog",
   "description": "Ab blog is one of the first projects I developed. It is an exercise in basic crud features. I will also be using it as an actual blog where I will post articles about things that I have learned that others might find useful.",
   "type": "Django",
-  "preview": "",
+  "preview": "https://abdullahinur.online/assets/images/projects/abblog.png",
   "link": "https://boiling-sierra-29856.herokuapp.com/",
   "challenge": "The main challenge that was faced during development was the assinging the ",
   "technology": "Django(3), Bootstrap 4"
 }, {
   "id": 2,
   "name": "AbTodo",
-  "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+  "description": "Ab todo (name pending), is a simple application for creating small lists, they can be any type of list. A user can create an account, login and out, as well as create specific lists and view those lists. In the future I hope to add more features, such as priority, notifications as well as social media login and integration.",
   "type": "Django",
-  "preview": "",
+  "preview": "https://abdullahinur.online/assets/images/projects/abtodo.png",
   "link": "https://radiant-meadow-08175.herokuapp.com/",
-  "challenge": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
-  "technology": "Wrapsafe"
-}]
+  "challenge": "Implementation of user authentication using the django system, also assigning a specific list array to a user without changing the foreign key relation to the User and List model.",
+  "technology": "Django(3), Bootstrap 4"
+},{
+  "id": 3,
+  "name": "JavaScript Clock",
+  "description": "An extremely simple clock made using JavaScript. No complications or extra features.",
+  "type": "Vanilla JavaScript",
+  "preview": "https://abdullahinur.online/assets/images/projects/jsclock.png",
+  "link": "https://abdullahinuraa.github.io/Simple-Js-Clock/",
+  "challenge": "Learning responsive layouts",
+  "technology": "JavaScript, Bootstrap 4"
+},{
+  "id": 4,
+  "name": "JavaScript Tip Calculator",
+  "description": "A simple tip calculator that takes in the total ammount of the restaurant bill due and calculates a percentage of that based on the quality of the service provided.",
+  "type": "Vanilla JavaScript",
+  "preview": "https://abdullahinur.online/assets/images/projects/jstipcalculator.png",
+  "link": "https://abdullahinuraa.github.io/Javascript-Tip-Calculator/",
+  "challenge": "Initial understanding of the JavaScript syntax and targeting user input assigned to a variable",
+  "technology": "JavaScript, Bootstrap 4"
+}
+]

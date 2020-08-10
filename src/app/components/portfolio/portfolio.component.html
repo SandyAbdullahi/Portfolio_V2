@@ -17,6 +17,9 @@
             <div mat-card-avatar>
              <ng-container [ngSwitch]="project.type">
                <div *ngSwitchCase="'Angular'"><i class="fab fa-angular body-color-red fa-2x"></i></div>
+               <div *ngSwitchCase="'Vanilla JavaScript'">
+                <i class="fab fa-js  body-color-red fa-2x"></i>
+                </div>
                <div *ngSwitchCase="'Django'">
                  <p class="font-weight-bold body-color-red">DJANGO</p>
                </div>

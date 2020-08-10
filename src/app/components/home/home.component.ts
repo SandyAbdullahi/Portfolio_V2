@@ -4,6 +4,8 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 import {NgsRevealConfig} from 'ngx-scrollreveal';
 
 
+
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
