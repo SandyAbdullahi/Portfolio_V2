@@ -14,12 +14,12 @@ import { ProjectService } from "../../services/project.service";
     trigger('it',[
       transition('void => *',[
         style({
-
+          x: -400,
           opacity: 0,
         }),
-        animate('0.2s ease-in',
+        animate('8000 0.01s ease-in',
         style({
-
+          x: 0,
           opacity: 1
         }))
       ])
