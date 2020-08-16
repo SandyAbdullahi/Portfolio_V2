@@ -12,6 +12,7 @@ import { MaterialModule } from './material.module';
 import {NgsRevealModule} from 'ngx-scrollreveal';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NgxSpinnerModule } from "ngx-spinner";
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
     MaterialModule,
     MyCarouselModule,
     NgsRevealModule,
+    NgxSpinnerModule
 
   ],
   providers: [],

@@ -17,7 +17,7 @@ import { ProjectService } from "../../services/project.service";
           x: -400,
           opacity: 0,
         }),
-        animate('8000 0.01s ease-in',
+        animate('1s',
         style({
           x: 0,
           opacity: 1
@@ -52,6 +52,8 @@ export class PortfolioComponent implements OnInit {
   constructor(private projectSvc: ProjectService, private route: ActivatedRoute) { }
 
   ngOnInit() {
+
+
 
     const filter = this.route.snapshot.queryParamMap.get('filter');
     if(filter) {
