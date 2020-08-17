@@ -17,3 +17,57 @@ $portfolio-theme: mat-dark-theme($portfolio-primary, $portfolio-accent, $portfol
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.overlay {
+	-webkit-animation: color-change-2x 3s cubic-bezier(.76,.11,.12,.84) infinite alternate both;
+          animation: color-change-2x 3s cubic-bezier(.76,.11,.12,.84) infinite alternate both;
+  .text {
+    color: #ffffff;
+    font-weight: 900;
+  }
+}
+
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #EDE7CB;
+  }
+  100% {
+
+    background: #B15857;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #EDE7CB;
+  }
+  100% {
+
+    background: #B15857;
+  }
+}
+
+
+// ANIMATION KEYFRAMES
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+
+
+//
